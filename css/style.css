@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background: linear-gradient(to right, #c9c9c9, #e3e3e3); */
+    background-color: #7CDBD5;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #f9be02;
+    width: 30%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 30px;
+}
+
+h2 {
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+}
+
+h2:hover {
+    color: #e74c3c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li:nth-child(2n) {
+    background-color: #ecf0f1;
+}
+
+li {
+    cursor: pointer;
+    line-height: 40px;
+    background-color: #fff;
+    color: #595959;
+    padding-left: 5px;
+    /* padding-top: 10px; */
+    letter-spacing: .05em;
+    font-size: 24px;
+    height: 40px;
+}
+
+.add {
+    float: right;
+}
+
+input[type=text] {
+    width: 100%;
+    font-size: 25px;
+    padding: 15px 15px 15px 20px;
+    box-sizing: border-box;
+    color: #e74c3c;
+    background-color: #f9be02;
+    border: none;
+    /* border: 3px solid rgba(67, 0, 81, 0.00); */
+}
+
+.del {
+    float: right;
+    display: inline-block;
+    width: 0px;
+    height: 100%;
+    color: #fff;
+    background-color: #e74c3c;
+    background-image: url("../img/trash.jpg");
+    background-repeat: none;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0;
+}
+
+.complete {
+    color: #b3b3b3;
+    text-decoration: line-through;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f9be02, #f0f0f0, #f9be02);
+    /* background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); */
+}
